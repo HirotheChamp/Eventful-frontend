@@ -1,0 +1,33 @@
+.events_list-item {
+    margin: 1rem 0;
+    padding: 1rem;
+    border: 1px solid #941bcc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 3px 3px #941bcc;
+    border-radius: 10px;
+    
+  }
+
+  .events_list-item h1{
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+    color: #941bcc;
+    
+  }
+
+  .events_list-item h2 {
+    margin: 0;
+    font-size: 1rem;
+    color:white;
+  }
+
+  .events_list-item p {
+    margin: 0;
+  }
+
+  .event_owner{
+    color: rgb(204, 26, 26);
+  }
