@@ -20,6 +20,8 @@ body {
 
 .form-control {
   margin-bottom: 1rem;
+  margin-left: 3%;
+  margin-right: 5%;
 }
 
 .form-actions button,
