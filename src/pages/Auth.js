@@ -98,20 +98,20 @@ class AuthPage extends Component {
                 <div className="txt_field">
                     <input type="email" path="email" required="required" ref={this.emailEl}/>
                     <span></span>
-                    <label path="email">Email</label>
+                    <label path="email">{this.state.isLogin ? 'Email' : 'Enter New Email'}</label>
                 </div>
                
                 <div className="txt_field">
                     <input type="password" path="password" required="required" ref={this.passwordEl}/>
                     <span></span>
-                    <label path="password">Password</label>
+                    <label path="password">{this.state.isLogin ? 'Password' : 'Enter New Password'}</label>
                 </div>
              
                 <div className='login-button-group'>
                 <button type="submit" value="Login">Submit</button>
                 <button type="button" onClick={this.switchModeHandler}>
 
-                    Switch to {this.state.isLogin ? 'Signup' : 'Login'}
+                    Click here to {this.state.isLogin ? 'Signup' : 'Login'}
 
                 </button>
                 </div>
